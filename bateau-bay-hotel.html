@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Info for Acts: Bateau Bay Hotel | Sound Partners</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="description" content="Playing times, production, parking and policies for acts performing at Bateau Bay Hotel. Managed by Sound Partners.">
+    <meta property="og:title" content="Booking Info for Acts: Bateau Bay Hotel | Sound Partners">
+    <meta property="og:description" content="Playing times, production, parking and policies for acts performing at Bateau Bay Hotel. Managed by Sound Partners.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="SP-Logo-Blue-SmashingLogo.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/png" href="SP-Logo-Blue-SmashingLogo.png">
+    <link rel="stylesheet" href="assets.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600&amp;display=swap');
         
         :root {
             --primary: #1e3a8a;
         }
         
         body {
-            font-family: 'Inter', system_ui, sans-serif;
+            font-family: 'Inter', system-ui, sans-serif;
         }
         
         .heading-font {
-            font-family: 'Poppins', 'Inter', system_ui, sans-serif;
+            font-family: 'Poppins', 'Inter', system-ui, sans-serif;
             font-weight: 600;
         }
 
@@ -76,10 +81,10 @@
     <header class="navy-header text-white shadow-lg">
         <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
             <div>
-                <img src="SP-Logo-Blue-SmashingLogo.png" alt="Sound Partners" class="h-9 md:h-[42px] w-auto">
+                <span class="inline-flex bg-white rounded-xl px-3 py-1.5 shadow-sm"><img src="SP-Logo-Blue-SmashingLogo.png" alt="Sound Partners" class="h-9 md:h-[42px] w-auto"></span>
             </div>
             <div class="hidden md:block">
-                <span class="px-4 py-1.5 bg-white/10 text-white text-sm font-medium rounded-full backdrop-blur-sm">Venue Booking Information</span>
+                <a href="index.html" class="inline-flex items-center gap-x-2 px-4 py-1.5 bg-white/10 hover:bg-white/20 text-white text-sm font-medium rounded-full backdrop-blur-sm transition-colors"><i class="fa-solid fa-arrow-left text-xs"></i><span>All Venues</span></a>
             </div>
         </div>
     </header>
@@ -125,7 +130,7 @@
                     </div>
                     <div class="min-w-0">
                         <div class="text-xs uppercase tracking-widest font-semibold text-slate-500 mb-1">VENUE PHONE</div>
-                        <a href="tel:+612433280" class="font-semibold text-slate-900 hover:text-blue-700 transition-colors">(02) 4332 80</a>
+                        <a href="tel:+61243328022" class="font-semibold text-slate-900 hover:text-blue-700 transition-colors">(02) 4332 8022</a>
                         <div class="text-xs text-slate-500 mt-0.5">Basic enquiries only</div>
                     </div>
                 </div>
@@ -340,12 +345,5 @@
         
     </div>
     
-    <script>
-        // Tailwind script for any dynamic config if needed
-        function initializeTailwind() {
-            // Can add custom config here if expanding later
-        }
-        window.onload = initializeTailwind;
-    </script>
 </body>
 </html>
